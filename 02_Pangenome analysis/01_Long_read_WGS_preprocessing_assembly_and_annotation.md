@@ -4,7 +4,7 @@
 
 ```bash
 
-NanoPlot -t 32 --fastq sample_07_7.fastq.gz -o sample_7 --verbose -f png --tsv_stats --N50
+NanoPlot -t 32 --fastq sample.fastq.gz -o sample_name --verbose -f png --tsv_stats --N50
 
 ```
 
@@ -14,11 +14,11 @@ NanoPlot -t 32 --fastq sample_07_7.fastq.gz -o sample_7 --verbose -f png --tsv_s
 
 minimap2 -ax map-ont /directory/path/reference_genome_pb3A/Pb3A_genomic.fna sample_27_27.fastq.gz > sammple_27.sam
 
-samtools view -bS sammple_27.sam | samtools sort -o sammple_27.sorted.bam
+samtools view -bS sammple.sam | samtools sort -o sammple.sorted.bam
 
-samtools index sammple_27.sorted.bam
+samtools index sammple.sorted.bam
 
-samtools idxstats sammple_27.sorted.bam
+samtools idxstats sammple.sorted.bam
 
 ```
 
