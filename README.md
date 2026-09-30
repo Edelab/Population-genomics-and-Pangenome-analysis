@@ -70,8 +70,8 @@ Population-genomics-and-Pangenome-analysis/
 
 If you use these workflows, please cite:
 
-> Muhammad Asim Javed, Florent Sylvestre - - - Maxim Prokchorchik*, Stephen Strelkov*, Edel Pérez-López* Global population genomics and pangenome of the clubroot pathogen link clonal expansion and effector diversification to resistance breakdown in canola.
-> preprint, year._ DOI:
+> Javed et al., (2026). Global population genomics and pangenome of the clubroot pathogen link clonal expansion and effector diversification to resistance breakdown in canola.
+> preprint (Coming soon)
 
 
 ## License
