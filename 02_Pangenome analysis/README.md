@@ -1,4 +1,4 @@
-# Pangenome analysis of — _Plasmodiophora brassicae_
+# Pangenome analysis of _Plasmodiophora brassicae_
 
 This directory contains the full bioinformatics pipeline used to build and 
 analyse the _P. brassicae_ pangenome and downstream functional annotation across 55 isolates, from raw long-read 
