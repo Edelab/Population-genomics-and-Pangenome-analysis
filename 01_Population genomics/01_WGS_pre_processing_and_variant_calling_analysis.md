@@ -274,9 +274,8 @@ vcftools --gzvcf $vcf --out 98_sumstats/$filecode --missing-site
 
 # Total SNPs count in good genomes (18) = 205643
 
-bcftools view -m2 -M2 -v snps global_pb_SNPs.vcf.gz | bcftools stats | grep 'number of SNPs:'   # Here used the good genome dataset (18 genomes) and counted the number of	201699 biallelic SNPs.
-
-bcftools view -m3 -v snps pb_filtered_snps.vcf | bcftools stats | grep 'number of SNPs:'  # Here used the good genome dataset (18 genomes) and counted the number of 992 multiallelic SNPs.
+bcftools view -m2 -M2 -v snps global_pb_SNPs.vcf.gz | bcftools stats | grep 'number of SNPs:'  
+bcftools view -m3 -v snps pb_filtered_snps.vcf | bcftools stats | grep 'number of SNPs:'
 
 bcftools view -m2 -v snps pb_filtered_snps.vcf | bcftools stats | grep 'number of SNPs:'  # command to count the total number of biallelic & multiallelic SNPs.
 
