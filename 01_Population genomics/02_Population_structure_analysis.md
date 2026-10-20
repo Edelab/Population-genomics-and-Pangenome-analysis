@@ -48,7 +48,8 @@ library(ggplot2)
 
 setwd("/path/to/directory/vcf/")
 
-# ---- Function: impute NA to the most common genotype per SNP ----
+#  Function
+
 Input_012 <- function(Gentable){
   for(i in 1:ncol(Gentable)){
     Gentable[,i][is.na(Gentable[,i])] <- as.numeric(names(which.max(table(Gentable[,i]))))
