@@ -24,7 +24,7 @@ of SNP and structural-variant (SV) call sets.
 
 ## Overview
 
-This repository documents the full analytical workflow behind the study above. It analyses
+This repository documents the full analytical workflow behind this study. It analyses
 whole-genome sequencing (WGS) data for the obligate biotrophic protist _P. brassicae_,
 combining genome-wide variant analysis across a global panel of isolates with a pangenome
 built from long-read assemblies. The aims are to (i) resolve population structure and
