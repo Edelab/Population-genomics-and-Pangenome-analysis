@@ -71,7 +71,7 @@ Population-genomics-and-Pangenome-analysis/
 If you use these workflows, please cite:
 
 > Javed et al., (2026). Global population genomics and pangenome of the clubroot pathogen link clonal expansion and effector diversification to resistance breakdown in canola.
-> preprint (Coming soon)
+> preprint doi: https://doi.org/10.64898/2026.10.14.759018
 
 
 ## License
